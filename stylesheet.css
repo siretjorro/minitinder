@@ -1,0 +1,68 @@
+/* unvisited link */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: #2b2b2b;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:link {
+    color: #006666;
+}
+
+/* visited link */
+a:visited {
+    color: #006666;
+}   
+
+/* mouse over link */
+a:hover {
+    color: #006666;
+}
+
+/* selected link */
+a:active {
+    color: #006666;
+}
+
+#yes {
+    color: #00cc00;
+}
+
+#no {
+    color: #ff0000;
+}
+
+input {
+    margin: 7px;
+}
+
+#change {
+    margin-top: 20px;
+}
+
+#match {
+    margin: 40px;
+}
+
+#messagesandbox {
+}
+
+#messages {
+    overflow: scroll;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+#notmymessage {
+    text-align: left;
+}
+
+#mymessage {
+    text-align: right;
+}
